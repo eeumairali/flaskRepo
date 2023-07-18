@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block main %}
+<div class="bg-red-300 border-spacing-4">
+<h1 class="text-xs ">Please write username and password</h1>
+<p class="text-lg" > {{ hehe }}</p>
+<form method="post" action="/">
+    <input type="text" placeholder="username" name = "usr" >
+    <input type="password" placeholder="password" name = "pass" >
+    <input class="bg-red-800 text-white" type="submit">
+</form>
+<p>{{ message }}</p>
+{% endblock main %}
+</div>
